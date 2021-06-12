@@ -10,4 +10,6 @@ export interface Boss {
     recommendedResists: string[];
     // 任意耐性
     suggestedResists: string[];
+    // 報酬
+    reward: string[];
 }

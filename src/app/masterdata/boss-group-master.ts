@@ -11,8 +11,12 @@ function CreateMaster(bases: any[]): BossGroup[] {
 
 export const BossGroupMaster = CreateMaster([
     // 名前
+    '守護者',
     '常闇',
-    'ほげほげふがふが',
+    'コイン',
+    '邪神',
+    'フィールド',
+
 ]);
 
 export function getBossGroupByName(name: string): BossGroup {
